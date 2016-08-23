@@ -22,3 +22,9 @@ webpack -w
 
 To see on server, run -->
 npm run dev //and see it running at localhost:3000
+
+
+In case you need to remove node_modules from the git repo, do this in the terminal
+git rm -r --cached node_modules
+git commit -m 'remove the node_modules directory'
+git push origin master
